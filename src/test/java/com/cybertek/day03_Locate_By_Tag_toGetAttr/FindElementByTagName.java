@@ -21,7 +21,7 @@ public class FindElementByTagName {
         System.out.println("allTagElements.size() = " + allTagElements.size());
         for (WebElement eachElement : allTagElements) {
             System.out.println("eachElement.getText() = " + eachElement.getText());
-            System.out.println("eachElement.getAttribute(\"href\") = " + eachElement.getAttribute("href"));
+           // System.out.println("eachElement.getAttribute(\"href\") = " + eachElement.getAttribute("href"));
 
         }
 

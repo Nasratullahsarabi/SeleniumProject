@@ -21,6 +21,7 @@ public class FindElementsByLinkText {
         WebElement aboutLink = driver.findElement(By.linkText("About"));
 
 
+
         Thread.sleep(5000);
         driver.close();
     }
